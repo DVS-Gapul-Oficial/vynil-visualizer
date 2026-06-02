@@ -7,5 +7,22 @@
 </head>
 <body>
   <div class="container">
-    <div class="vinyl"
+    
+    <div class="vinyl" id="vinyl"></div>div>
+    
+    <input type="file" id="imageInput" accept="image/*">
+    <input type="file" id="audioInput" accept="audio/*">
+    
+    <label>RPM</label>
+    <input type="range" id="rpm" min="10" max="120" value="33">
+
+    <label>Color</label>
+    <input type="color" id="colorPicker">
+
+    <audio id="audio" controls></audio>
+
+  </div>
+
+  <script src="app.js"></script>
 </body>
+</html>
